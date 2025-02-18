@@ -168,6 +168,55 @@ nav ul li a {
     padding-top: 50px;
 }
 
+.giftcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f8f1e7;
+}
+
+.giftcards-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 90%;
+    gap: 20px;
+}
+
+.giftcards-text {
+    width: 50%;
+    text-align: left;
+}
+
+.giftcards-text h2 {
+    color: #8a5a44;
+}
+
+.giftcards-image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.giftcards-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Ajuste para móviles: imagen debajo del texto */
+@media (max-width: 768px) {
+    .giftcards-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .giftcards-text, .giftcards-image {
+        width: 100%;
+    }
+}
+
 .service {
     display: flex;
     align-items: center;
