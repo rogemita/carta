@@ -296,17 +296,16 @@ footer {
     margin-top: 20px;
 }
 
-/* .hero {
-    background-image: url('images/logotipo.jpeg');
+ .hero {
+    background-image: url('images/masaje relajante y descontracturante - portada.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
-/*    display: flex;
+    height: 100vh;  Ocupa el 100% de la altura de la pantalla 
+    display: flex;*/
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
     padding: 20px;
 }
-*/
